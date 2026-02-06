@@ -10,7 +10,7 @@ server.use(middlewares);
 server.use(router);
 
 // Zeabur 會自動分配 PORT，所以我們優先讀取 process.env.PORT
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
