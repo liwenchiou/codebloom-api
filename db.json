@@ -3,240 +3,400 @@
     {
       "id": 1,
       "title": "TravelMates 旅伴媒合平台",
-      "image": "webDesignImg",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
       "author": "陳冠宇",
-      "avatar": "avatarChen",
+      "avatar": "https://i.pravatar.cc/150?img=33",
       "tags": [
         "React",
         "Node.js"
       ],
-      "rank": 1
+      "category": "網頁應用",
+      "difficulty": "中級",
+      "description": "一個讓旅行者可以找到志趣相投旅伴的媒合平台，支援即時聊天與行程規劃。",
+      "views": 1520,
+      "likes": 234,
+      "isLiked": false,
+      "releaseDate": "2026-01-10",
+      "demoUrl": "https://travelmetes-demo.vercel.app",
+      "sourceUrl": "https://github.com/guanyu/travelmetes"
     },
     {
       "id": 2,
       "title": "FinanceGo- 智慧理財儀表板",
-      "image": "bankingImg",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
       "author": "Sarah Smith",
-      "avatar": "avatarSarah",
+      "avatar": "https://i.pravatar.cc/150?img=5",
       "tags": [
         "React",
         "TypeScript"
       ],
-      "rank": 2
+      "category": "金融科技",
+      "difficulty": "進階",
+      "description": "整合多種投資帳戶的智慧理財儀表板，即時追蹤資產變化與收益分析。",
+      "views": 2340,
+      "likes": 412,
+      "isLiked": false,
+      "releaseDate": "2026-01-15",
+      "demoUrl": "https://financego-demo.vercel.app",
+      "sourceUrl": "https://github.com/sarahsmith/financego"
     },
     {
       "id": 3,
       "title": "Vue3 極簡音樂播放器",
-      "image": "musicAppImg",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&h=400&fit=crop",
       "author": "楊子萱",
-      "avatar": "avatarYang",
+      "avatar": "https://i.pravatar.cc/150?img=9",
       "tags": [
         "Vue3",
         "SCSS"
       ],
-      "rank": 3
+      "category": "多媒體",
+      "difficulty": "初級",
+      "description": "極簡風格的線上音樂播放器，支援播放清單管理與歌詞同步顯示。",
+      "views": 980,
+      "likes": 156,
+      "isLiked": false,
+      "releaseDate": "2026-01-20",
+      "demoUrl": "https://vue-music-demo.vercel.app",
+      "sourceUrl": "https://github.com/zixuan/vue-music"
     },
     {
       "id": 4,
       "title": "React 拖曳式看板",
-      "image": "taskMgmtImg",
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&h=400&fit=crop",
       "author": "Oliver Brown",
-      "avatar": "avatarOliver",
+      "avatar": "https://i.pravatar.cc/150?img=12",
       "tags": [
         "React",
         "Zustand"
       ],
-      "rank": 4
+      "category": "生產力工具",
+      "difficulty": "中級",
+      "description": "類似 Trello 的拖曳式看板工具，支援任務分類、標籤與團隊協作。",
+      "views": 1870,
+      "likes": 298,
+      "isLiked": false,
+      "releaseDate": "2026-01-22",
+      "demoUrl": "https://react-kanban-demo.vercel.app",
+      "sourceUrl": "https://github.com/oliverbrown/react-kanban"
     },
     {
       "id": 5,
       "title": "Next.js 響應式部落格模板",
-      "image": "blogImg",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop",
       "author": "林雅婷",
-      "avatar": "avatarLin",
+      "avatar": "https://i.pravatar.cc/150?img=23",
       "tags": [
         "Next.js",
         "Tailwind"
       ],
-      "rank": 5
+      "category": "模板",
+      "difficulty": "初級",
+      "description": "支援 Markdown 撰寫的響應式部落格模板，內建 SEO 優化與深色模式。",
+      "views": 3200,
+      "likes": 567,
+      "isLiked": false,
+      "releaseDate": "2026-01-25",
+      "demoUrl": "https://nextjs-blog-demo.vercel.app",
+      "sourceUrl": "https://github.com/yating/nextjs-blog"
     },
     {
       "id": 6,
       "title": "AI 智慧倉儲管理系統",
-      "image": "warehouseImg",
+      "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&h=400&fit=crop",
       "author": "軟體工程師",
-      "avatar": "avatarEngineer",
+      "avatar": "https://i.pravatar.cc/150?img=15",
       "tags": [
         "MySQL",
         "Docker"
       ],
-      "rank": 6
+      "category": "企業應用",
+      "difficulty": "進階",
+      "description": "結合 AI 預測的倉儲管理系統，自動化庫存盤點與智慧補貨建議。",
+      "views": 1100,
+      "likes": 189,
+      "isLiked": false,
+      "releaseDate": "2026-01-28",
+      "demoUrl": "https://warehouse-demo.vercel.app",
+      "sourceUrl": "https://github.com/engineer/ai-warehouse"
     },
     {
       "id": 7,
       "title": "CodeBloom 成長平台",
-      "image": "codeBloomImg",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
       "author": "陳冠宇",
-      "avatar": "avatarChen",
+      "avatar": "https://i.pravatar.cc/150?img=33",
       "tags": [
         "TypeScript",
         "Tailwind"
       ],
-      "rank": 7
+      "category": "教育平台",
+      "difficulty": "中級",
+      "description": "專為開發者打造的學習成長平台，涵蓋作品展示、技術文章與社群問答。",
+      "views": 4500,
+      "likes": 823,
+      "isLiked": false,
+      "releaseDate": "2026-02-01",
+      "demoUrl": "https://codebloom.dev",
+      "sourceUrl": "https://github.com/guanyu/codebloom"
     },
     {
       "id": 8,
       "title": "Tailwind 元件酷測試工具",
-      "image": "twComponentImg",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
       "author": "前端開發者",
-      "avatar": "avatarDev",
+      "avatar": "https://i.pravatar.cc/150?img=18",
       "tags": [
         "React",
         "Tailwind"
       ],
-      "rank": 8
+      "category": "開發工具",
+      "difficulty": "初級",
+      "description": "快速預覽與測試 Tailwind CSS 元件的線上工具，支援即時編輯與匯出。",
+      "views": 2100,
+      "likes": 345,
+      "isLiked": false,
+      "releaseDate": "2026-02-03",
+      "demoUrl": "https://tw-component-demo.vercel.app",
+      "sourceUrl": "https://github.com/frontdev/tw-component"
     },
     {
       "id": 9,
       "title": "Hex-Portal 管理介面",
-      "image": "hexPortalImg",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       "author": "廖英隆",
-      "avatar": "avatarLiao",
+      "avatar": "https://i.pravatar.cc/150?img=22",
       "tags": [
         "Vue3",
         "Pinia"
       ],
-      "rank": 9
+      "category": "後台管理",
+      "difficulty": "中級",
+      "description": "功能完整的後台管理介面，內建權限控管、資料表格與圖表分析。",
+      "views": 1750,
+      "likes": 276,
+      "isLiked": false,
+      "releaseDate": "2026-02-05",
+      "demoUrl": "https://hex-portal-demo.vercel.app",
+      "sourceUrl": "https://github.com/yinglong/hex-portal"
     },
     {
       "id": 10,
       "title": "跨平台天氣預報系統",
-      "image": "weatherImg",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
       "author": "張琳",
-      "avatar": "avatarZhang",
+      "avatar": "https://i.pravatar.cc/150?img=27",
       "tags": [
         "React Native",
         "Expo"
       ],
-      "rank": 10
+      "category": "行動應用",
+      "difficulty": "中級",
+      "description": "跨平台天氣預報 App，支援定位查詢、7 天預報與空氣品質監測。",
+      "views": 1320,
+      "likes": 198,
+      "isLiked": false,
+      "releaseDate": "2026-02-07",
+      "demoUrl": "https://weather-demo.vercel.app",
+      "sourceUrl": "https://github.com/zhanglin/weather-app"
     },
     {
       "id": 11,
       "title": "GraphQL 電商後端 API",
-      "image": "apiImg",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
       "author": "黃俊傑",
-      "avatar": "avatarHuang",
+      "avatar": "https://i.pravatar.cc/150?img=30",
       "tags": [
         "GraphQL",
         "Node.js"
       ],
-      "rank": 11
+      "category": "後端開發",
+      "difficulty": "進階",
+      "description": "使用 GraphQL 建構的電商後端 API，支援商品查詢、訂單管理與支付整合。",
+      "views": 1680,
+      "likes": 245,
+      "isLiked": false,
+      "releaseDate": "2026-02-08",
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/junjie/graphql-ecommerce"
     },
     {
       "id": 12,
       "title": "Markdown 部落格生成器",
-      "image": "markdownImg",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&h=400&fit=crop",
       "author": "Sarah Smith",
-      "avatar": "avatarSarah",
+      "avatar": "https://i.pravatar.cc/150?img=5",
       "tags": [
         "Next.js",
         "Markdown"
       ],
-      "rank": 12
+      "category": "開發工具",
+      "difficulty": "初級",
+      "description": "將 Markdown 文件自動轉換為靜態部落格網站的生成工具，支援主題切換。",
+      "views": 2450,
+      "likes": 389,
+      "isLiked": false,
+      "releaseDate": "2026-02-09",
+      "demoUrl": "https://md-blog-demo.vercel.app",
+      "sourceUrl": "https://github.com/sarahsmith/md-blog"
     },
     {
       "id": 13,
       "title": "Real-time 協作白板",
-      "image": "whiteboardImg",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&h=400&fit=crop",
       "author": "楊子萱",
-      "avatar": "avatarYang",
+      "avatar": "https://i.pravatar.cc/150?img=9",
       "tags": [
         "Socket.io",
         "Canvas"
       ],
-      "rank": 13
+      "category": "協作工具",
+      "difficulty": "進階",
+      "description": "支援多人即時協作的線上白板工具，可繪圖、貼便利貼與匯出 PNG。",
+      "views": 1920,
+      "likes": 312,
+      "isLiked": false,
+      "releaseDate": "2026-02-10",
+      "demoUrl": "https://whiteboard-demo.vercel.app",
+      "sourceUrl": "https://github.com/zixuan/realtime-whiteboard"
     },
     {
       "id": 14,
       "title": "個人資產配置儀表板",
-      "image": "assetImg",
+      "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&h=400&fit=crop",
       "author": "理財小達人",
-      "avatar": "avatarBudget",
+      "avatar": "https://i.pravatar.cc/150?img=35",
       "tags": [
         "TypeScript",
         "Recharts"
       ],
-      "rank": 14
+      "category": "金融科技",
+      "difficulty": "中級",
+      "description": "視覺化個人資產分佈的儀表板，支援多幣別匯率轉換與歷史趨勢分析。",
+      "views": 1450,
+      "likes": 221,
+      "isLiked": false,
+      "releaseDate": "2026-02-11",
+      "demoUrl": "https://asset-dashboard-demo.vercel.app",
+      "sourceUrl": "https://github.com/budget/asset-dashboard"
     },
     {
       "id": 15,
       "title": "微服務容器化部署方案",
-      "image": "dockerImg",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
       "author": "吳修德",
-      "avatar": "avatarWu",
+      "avatar": "https://i.pravatar.cc/150?img=14",
       "tags": [
         "Docker",
         "K8s"
       ],
-      "rank": 15
+      "category": "DevOps",
+      "difficulty": "進階",
+      "description": "完整的微服務容器化部署教學範例，涵蓋 Docker Compose 與 K8s 配置。",
+      "views": 2800,
+      "likes": 456,
+      "isLiked": false,
+      "releaseDate": "2026-02-12",
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/xiude/microservice-docker"
     },
     {
       "id": 16,
       "title": "響應式電商 UI 庫",
-      "image": "uiKitImg",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&h=400&fit=crop",
       "author": "王美琪",
-      "avatar": "avatarWang",
+      "avatar": "https://i.pravatar.cc/150?img=26",
       "tags": [
         "Vue3",
         "Storybook"
       ],
-      "rank": 16
+      "category": "UI 元件庫",
+      "difficulty": "中級",
+      "description": "為電商場景設計的 Vue3 UI 元件庫，支援 Storybook 文件與主題客製。",
+      "views": 1650,
+      "likes": 278,
+      "isLiked": false,
+      "releaseDate": "2026-02-13",
+      "demoUrl": "https://ecommerce-ui-demo.vercel.app",
+      "sourceUrl": "https://github.com/meiqi/ecommerce-ui"
     },
     {
       "id": 17,
       "title": "Python 機器學習模型",
-      "image": "mlImg",
+      "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&h=400&fit=crop",
       "author": "李建偉",
-      "avatar": "avatarLi",
+      "avatar": "https://i.pravatar.cc/150?img=32",
       "tags": [
         "Python",
         "ML"
       ],
-      "rank": 17
+      "category": "人工智慧",
+      "difficulty": "進階",
+      "description": "從資料前處理到模型部署的完整 ML Pipeline，包含多種演算法比較。",
+      "views": 3100,
+      "likes": 534,
+      "isLiked": false,
+      "releaseDate": "2026-02-14",
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/jianwei/ml-pipeline"
     },
     {
       "id": 18,
       "title": "智慧家居物聯網 App",
-      "image": "iotAppImg",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&h=400&fit=crop",
       "author": "硬體高手",
-      "avatar": "avatarIot",
+      "avatar": "https://i.pravatar.cc/150?img=36",
       "tags": [
         "React Native",
         "MQTT"
       ],
-      "rank": 18
+      "category": "物聯網",
+      "difficulty": "進階",
+      "description": "透過 MQTT 協議控制智慧家電的跨平台 App，支援自動化場景排程。",
+      "views": 1380,
+      "likes": 203,
+      "isLiked": false,
+      "releaseDate": "2026-02-15",
+      "demoUrl": "https://iot-app-demo.vercel.app",
+      "sourceUrl": "https://github.com/hardware/iot-home"
     },
     {
       "id": 19,
       "title": "高效能搜尋引擎實作",
-      "image": "searchImg",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop",
       "author": "陳冠宇",
-      "avatar": "avatarChen",
+      "avatar": "https://i.pravatar.cc/150?img=33",
       "tags": [
         "ElasticSearch"
       ],
-      "rank": 19
+      "category": "後端開發",
+      "difficulty": "進階",
+      "description": "使用 ElasticSearch 打造的全文搜尋引擎，支援中文分詞與權重排序。",
+      "views": 2050,
+      "likes": 367,
+      "isLiked": false,
+      "releaseDate": "2026-02-16",
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/guanyu/search-engine"
     },
     {
       "id": 20,
       "title": "企業級 CI/CD 自動化",
-      "image": "devopsImg",
+      "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&h=400&fit=crop",
       "author": "軟體工程師",
-      "avatar": "avatarEngineer",
+      "avatar": "https://i.pravatar.cc/150?img=15",
       "tags": [
         "GitHub Actions"
       ],
-      "rank": 20
+      "category": "DevOps",
+      "difficulty": "中級",
+      "description": "基於 GitHub Actions 的 CI/CD 自動化流程範例，涵蓋測試、建置與部署。",
+      "views": 1900,
+      "likes": 310,
+      "isLiked": false,
+      "releaseDate": "2026-02-17",
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/engineer/cicd-automation"
     }
   ],
   "articleList": [
@@ -247,7 +407,7 @@
       "author": "陳冠宇",
       "date": "2026-01-01",
       "description": "深度分析 React 19 與 Server Components 的未來應用。",
-      "cover": "https://picsum.photos/seed/art1/400/300",
+      "cover": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=300&fit=crop",
       "views": 1500
     },
     {
@@ -257,7 +417,7 @@
       "author": "廖英隆",
       "date": "2026-01-05",
       "description": "如何利用 Conditional Types 打造類型安全的 API SDK。",
-      "cover": "https://picsum.photos/seed/art2/400/300",
+      "cover": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop",
       "views": 2200
     },
     {
@@ -267,7 +427,7 @@
       "author": "吳修德",
       "date": "2026-01-10",
       "description": "軟體工程師必備的容器化基礎，含 Docker Compose 教學。",
-      "cover": "https://picsum.photos/seed/art3/400/300",
+      "cover": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=400&h=300&fit=crop",
       "views": 1800
     },
     {
@@ -277,7 +437,7 @@
       "author": "前端開發者",
       "date": "2026-01-15",
       "description": "如何減小編譯體積並提升 JIT 模式的開發效率。",
-      "cover": "https://picsum.photos/seed/art4/400/300",
+      "cover": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=400&h=300&fit=crop",
       "views": 900
     },
     {
@@ -287,7 +447,7 @@
       "author": "楊子萱",
       "date": "2026-01-20",
       "description": "useMemo 與 useCallback 的正確使用時機。",
-      "cover": "https://picsum.photos/seed/art5/400/300",
+      "cover": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=400&h=300&fit=crop",
       "views": 3100
     },
     {
@@ -297,7 +457,7 @@
       "author": "架構師老王",
       "date": "2026-01-22",
       "description": "在大型企業專案中拆分前端應用的實踐心得。",
-      "cover": "https://picsum.photos/seed/art6/400/300",
+      "cover": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
       "views": 1200
     },
     {
@@ -307,7 +467,7 @@
       "author": "軟體工程師",
       "date": "2026-01-25",
       "description": "如何實作全域 Error Handling 並串接 Sentry。",
-      "cover": "https://picsum.photos/seed/art7/400/300",
+      "cover": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=300&fit=crop",
       "views": 750
     },
     {
@@ -317,7 +477,7 @@
       "author": "王美琪",
       "date": "2026-01-28",
       "description": "從 Options API 轉換到 Script Setup 的完整路徑。",
-      "cover": "https://picsum.photos/seed/art8/400/300",
+      "cover": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop",
       "views": 1400
     },
     {
@@ -327,7 +487,7 @@
       "author": "黃俊傑",
       "date": "2026-01-30",
       "description": "如何規劃具備擴充性且易讀的 API 資源路徑。",
-      "cover": "https://picsum.photos/seed/art9/400/300",
+      "cover": "https://images.unsplash.com/photo-1623282033815-40b05d96c903?w=400&h=300&fit=crop",
       "views": 2500
     },
     {
@@ -337,7 +497,7 @@
       "author": "迷途小書僮",
       "date": "2026-02-01",
       "description": "除了寫扣，你更應該掌握的溝通與管理技巧。",
-      "cover": "https://picsum.photos/seed/art10/400/300",
+      "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
       "views": 5000
     },
     {
@@ -347,7 +507,7 @@
       "author": "NextJS 探險家",
       "date": "2026-02-03",
       "description": "體驗最新的快取機制與 Data Fetching 優化。",
-      "cover": "https://picsum.photos/seed/art11/400/300",
+      "cover": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=400&h=300&fit=crop",
       "views": 850
     },
     {
@@ -357,7 +517,7 @@
       "author": "測試大師",
       "date": "2026-02-04",
       "description": "使用 Jest 與 Vitest 為你的程式碼寫第一份測試。",
-      "cover": "https://picsum.photos/seed/art12/400/300",
+      "cover": "https://images.unsplash.com/photo-1576444356170-66073fbf1ece?w=400&h=300&fit=crop",
       "views": 600
     },
     {
@@ -367,7 +527,7 @@
       "author": "程式整潔官",
       "date": "2026-02-05",
       "description": "讓同事不再看不懂你的扣，從命名開始優化。",
-      "cover": "https://picsum.photos/seed/art13/400/300",
+      "cover": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=300&fit=crop",
       "views": 4200
     },
     {
@@ -377,7 +537,7 @@
       "author": "Git Lover",
       "date": "2026-02-06",
       "description": "再也不怕 Merge Conflict，優雅保持 Commit 線圖。",
-      "cover": "https://picsum.photos/seed/art14/400/300",
+      "cover": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
       "views": 1100
     },
     {
@@ -387,7 +547,7 @@
       "author": "軟體工程師",
       "date": "2026-02-07",
       "description": "推薦 iPad 上的 Code Editor 與系統架構繪圖 App。",
-      "cover": "https://picsum.photos/seed/art15/400/300",
+      "cover": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop",
       "views": 2900
     },
     {
@@ -397,7 +557,7 @@
       "author": "Oliver Brown",
       "date": "2026-02-08",
       "description": "比起 Redux，為什麼小型專案更適合 Zustand。",
-      "cover": "https://picsum.photos/seed/art16/400/300",
+      "cover": "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?w=400&h=300&fit=crop",
       "views": 1750
     },
     {
@@ -407,7 +567,7 @@
       "author": "資安專員",
       "date": "2026-02-09",
       "description": "預防 XSS 與 CSRF 攻擊的實戰建議。",
-      "cover": "https://picsum.photos/seed/art17/400/300",
+      "cover": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop",
       "views": 980
     },
     {
@@ -417,7 +577,7 @@
       "author": "資深工程師",
       "date": "2026-02-10",
       "description": "快速理清複雜程式碼邏輯的讀碼心法。",
-      "cover": "https://picsum.photos/seed/art18/400/300",
+      "cover": "https://images.unsplash.com/photo-1515879218367-8466d910auj0?w=400&h=300&fit=crop",
       "views": 3300
     },
     {
@@ -427,7 +587,7 @@
       "author": "資料庫大師",
       "date": "2026-02-11",
       "description": "正確建立 Index 索引提升查詢速度。",
-      "cover": "https://picsum.photos/seed/art19/400/300",
+      "cover": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop",
       "views": 1550
     },
     {
@@ -437,7 +597,7 @@
       "author": "黃俊傑",
       "date": "2026-02-12",
       "description": "你的專案真的需要 GraphQL 嗎？優缺點深度比較。",
-      "cover": "https://picsum.photos/seed/art20/400/300",
+      "cover": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop",
       "views": 2100
     }
   ],
