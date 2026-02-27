@@ -1,68 +1,950 @@
 {
   "portfolio": [
-    { "id": 1, "title": "TravelMates 旅伴媒合平台", "image": "webDesignImg", "author": "陳冠宇", "avatar": "avatarChen", "tags": ["React", "Node.js"], "rank": 1 },
-    { "id": 2, "title": "FinanceGo- 智慧理財儀表板", "image": "bankingImg", "author": "Sarah Smith", "avatar": "avatarSarah", "tags": ["React", "TypeScript"], "rank": 2 },
-    { "id": 3, "title": "Vue3 極簡音樂播放器", "image": "musicAppImg", "author": "楊子萱", "avatar": "avatarYang", "tags": ["Vue3", "SCSS"], "rank": 3 },
-    { "id": 4, "title": "React 拖曳式看板", "image": "taskMgmtImg", "author": "Oliver Brown", "avatar": "avatarOliver", "tags": ["React", "Zustand"], "rank": 4 },
-    { "id": 5, "title": "Next.js 響應式部落格模板", "image": "blogImg", "author": "林雅婷", "avatar": "avatarLin", "tags": ["Next.js", "Tailwind"], "rank": 5 },
-    { "id": 6, "title": "AI 智慧倉儲管理系統", "image": "warehouseImg", "author": "軟體工程師", "avatar": "avatarEngineer", "tags": ["MySQL", "Docker"], "rank": 6 },
-    { "id": 7, "title": "CodeBloom 成長平台", "image": "codeBloomImg", "author": "陳冠宇", "avatar": "avatarChen", "tags": ["TypeScript", "Tailwind"], "rank": 7 },
-    { "id": 8, "title": "Tailwind 元件酷測試工具", "image": "twComponentImg", "author": "前端開發者", "avatar": "avatarDev", "tags": ["React", "Tailwind"], "rank": 8 },
-    { "id": 9, "title": "Hex-Portal 管理介面", "image": "hexPortalImg", "author": "廖英隆", "avatar": "avatarLiao", "tags": ["Vue3", "Pinia"], "rank": 9 },
-    { "id": 10, "title": "跨平台天氣預報系統", "image": "weatherImg", "author": "張琳", "avatar": "avatarZhang", "tags": ["React Native", "Expo"], "rank": 10 },
-    { "id": 11, "title": "GraphQL 電商後端 API", "image": "apiImg", "author": "黃俊傑", "avatar": "avatarHuang", "tags": ["GraphQL", "Node.js"], "rank": 11 },
-    { "id": 12, "title": "Markdown 部落格生成器", "image": "markdownImg", "author": "Sarah Smith", "avatar": "avatarSarah", "tags": ["Next.js", "Markdown"], "rank": 12 },
-    { "id": 13, "title": "Real-time 協作白板", "image": "whiteboardImg", "author": "楊子萱", "avatar": "avatarYang", "tags": ["Socket.io", "Canvas"], "rank": 13 },
-    { "id": 14, "title": "個人資產配置儀表板", "image": "assetImg", "author": "理財小達人", "avatar": "avatarBudget", "tags": ["TypeScript", "Recharts"], "rank": 14 },
-    { "id": 15, "title": "微服務容器化部署方案", "image": "dockerImg", "author": "吳修德", "avatar": "avatarWu", "tags": ["Docker", "K8s"], "rank": 15 },
-    { "id": 16, "title": "響應式電商 UI 庫", "image": "uiKitImg", "author": "王美琪", "avatar": "avatarWang", "tags": ["Vue3", "Storybook"], "rank": 16 },
-    { "id": 17, "title": "Python 機器學習模型", "image": "mlImg", "author": "李建偉", "avatar": "avatarLi", "tags": ["Python", "ML"], "rank": 17 },
-    { "id": 18, "title": "智慧家居物聯網 App", "image": "iotAppImg", "author": "硬體高手", "avatar": "avatarIot", "tags": ["React Native", "MQTT"], "rank": 18 },
-    { "id": 19, "title": "高效能搜尋引擎實作", "image": "searchImg", "author": "陳冠宇", "avatar": "avatarChen", "tags": ["ElasticSearch"], "rank": 19 },
-    { "id": 20, "title": "企業級 CI/CD 自動化", "image": "devopsImg", "author": "軟體工程師", "avatar": "avatarEngineer", "tags": ["GitHub Actions"], "rank": 20 }
+    {
+      "id": 1,
+      "title": "TravelMates 旅伴媒合平台",
+      "image": "webDesignImg",
+      "author": "陳冠宇",
+      "avatar": "avatarChen",
+      "tags": [
+        "React",
+        "Node.js"
+      ],
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "title": "FinanceGo- 智慧理財儀表板",
+      "image": "bankingImg",
+      "author": "Sarah Smith",
+      "avatar": "avatarSarah",
+      "tags": [
+        "React",
+        "TypeScript"
+      ],
+      "rank": 2
+    },
+    {
+      "id": 3,
+      "title": "Vue3 極簡音樂播放器",
+      "image": "musicAppImg",
+      "author": "楊子萱",
+      "avatar": "avatarYang",
+      "tags": [
+        "Vue3",
+        "SCSS"
+      ],
+      "rank": 3
+    },
+    {
+      "id": 4,
+      "title": "React 拖曳式看板",
+      "image": "taskMgmtImg",
+      "author": "Oliver Brown",
+      "avatar": "avatarOliver",
+      "tags": [
+        "React",
+        "Zustand"
+      ],
+      "rank": 4
+    },
+    {
+      "id": 5,
+      "title": "Next.js 響應式部落格模板",
+      "image": "blogImg",
+      "author": "林雅婷",
+      "avatar": "avatarLin",
+      "tags": [
+        "Next.js",
+        "Tailwind"
+      ],
+      "rank": 5
+    },
+    {
+      "id": 6,
+      "title": "AI 智慧倉儲管理系統",
+      "image": "warehouseImg",
+      "author": "軟體工程師",
+      "avatar": "avatarEngineer",
+      "tags": [
+        "MySQL",
+        "Docker"
+      ],
+      "rank": 6
+    },
+    {
+      "id": 7,
+      "title": "CodeBloom 成長平台",
+      "image": "codeBloomImg",
+      "author": "陳冠宇",
+      "avatar": "avatarChen",
+      "tags": [
+        "TypeScript",
+        "Tailwind"
+      ],
+      "rank": 7
+    },
+    {
+      "id": 8,
+      "title": "Tailwind 元件酷測試工具",
+      "image": "twComponentImg",
+      "author": "前端開發者",
+      "avatar": "avatarDev",
+      "tags": [
+        "React",
+        "Tailwind"
+      ],
+      "rank": 8
+    },
+    {
+      "id": 9,
+      "title": "Hex-Portal 管理介面",
+      "image": "hexPortalImg",
+      "author": "廖英隆",
+      "avatar": "avatarLiao",
+      "tags": [
+        "Vue3",
+        "Pinia"
+      ],
+      "rank": 9
+    },
+    {
+      "id": 10,
+      "title": "跨平台天氣預報系統",
+      "image": "weatherImg",
+      "author": "張琳",
+      "avatar": "avatarZhang",
+      "tags": [
+        "React Native",
+        "Expo"
+      ],
+      "rank": 10
+    },
+    {
+      "id": 11,
+      "title": "GraphQL 電商後端 API",
+      "image": "apiImg",
+      "author": "黃俊傑",
+      "avatar": "avatarHuang",
+      "tags": [
+        "GraphQL",
+        "Node.js"
+      ],
+      "rank": 11
+    },
+    {
+      "id": 12,
+      "title": "Markdown 部落格生成器",
+      "image": "markdownImg",
+      "author": "Sarah Smith",
+      "avatar": "avatarSarah",
+      "tags": [
+        "Next.js",
+        "Markdown"
+      ],
+      "rank": 12
+    },
+    {
+      "id": 13,
+      "title": "Real-time 協作白板",
+      "image": "whiteboardImg",
+      "author": "楊子萱",
+      "avatar": "avatarYang",
+      "tags": [
+        "Socket.io",
+        "Canvas"
+      ],
+      "rank": 13
+    },
+    {
+      "id": 14,
+      "title": "個人資產配置儀表板",
+      "image": "assetImg",
+      "author": "理財小達人",
+      "avatar": "avatarBudget",
+      "tags": [
+        "TypeScript",
+        "Recharts"
+      ],
+      "rank": 14
+    },
+    {
+      "id": 15,
+      "title": "微服務容器化部署方案",
+      "image": "dockerImg",
+      "author": "吳修德",
+      "avatar": "avatarWu",
+      "tags": [
+        "Docker",
+        "K8s"
+      ],
+      "rank": 15
+    },
+    {
+      "id": 16,
+      "title": "響應式電商 UI 庫",
+      "image": "uiKitImg",
+      "author": "王美琪",
+      "avatar": "avatarWang",
+      "tags": [
+        "Vue3",
+        "Storybook"
+      ],
+      "rank": 16
+    },
+    {
+      "id": 17,
+      "title": "Python 機器學習模型",
+      "image": "mlImg",
+      "author": "李建偉",
+      "avatar": "avatarLi",
+      "tags": [
+        "Python",
+        "ML"
+      ],
+      "rank": 17
+    },
+    {
+      "id": 18,
+      "title": "智慧家居物聯網 App",
+      "image": "iotAppImg",
+      "author": "硬體高手",
+      "avatar": "avatarIot",
+      "tags": [
+        "React Native",
+        "MQTT"
+      ],
+      "rank": 18
+    },
+    {
+      "id": 19,
+      "title": "高效能搜尋引擎實作",
+      "image": "searchImg",
+      "author": "陳冠宇",
+      "avatar": "avatarChen",
+      "tags": [
+        "ElasticSearch"
+      ],
+      "rank": 19
+    },
+    {
+      "id": 20,
+      "title": "企業級 CI/CD 自動化",
+      "image": "devopsImg",
+      "author": "軟體工程師",
+      "avatar": "avatarEngineer",
+      "tags": [
+        "GitHub Actions"
+      ],
+      "rank": 20
+    }
   ],
   "articleList": [
-    { "id": 1, "title": "2026 前端趨勢展望", "category": "技術趨勢", "author": "陳冠宇", "date": "2026-01-01", "description": "深度分析 React 19 與 Server Components 的未來應用。", "cover": "https://picsum.photos/seed/art1/400/300", "views": 1500 },
-    { "id": 2, "title": "TypeScript 高階型別實戰", "category": "語言基礎", "author": "廖英隆", "date": "2026-01-05", "description": "如何利用 Conditional Types 打造類型安全的 API SDK。", "cover": "https://picsum.photos/seed/art2/400/300", "views": 2200 },
-    { "id": 3, "title": "從零開始架設 Docker 環境", "category": "DevOps", "author": "吳修德", "date": "2026-01-10", "description": "軟體工程師必備的容器化基礎，含 Docker Compose 教學。", "cover": "https://picsum.photos/seed/art3/400/300", "views": 1800 },
-    { "id": 4, "title": "Tailwind CSS 優化指南", "category": "CSS", "author": "前端開發者", "date": "2026-01-15", "description": "如何減小編譯體積並提升 JIT 模式的開發效率。", "cover": "https://picsum.photos/seed/art4/400/300", "views": 900 },
-    { "id": 5, "title": "React Performance 效能優化", "category": "前端框架", "author": "楊子萱", "date": "2026-01-20", "description": "useMemo 與 useCallback 的正確使用時機。", "cover": "https://picsum.photos/seed/art5/400/300", "views": 3100 },
-    { "id": 6, "title": "微前端架構 Micro-frontends", "category": "架構設計", "author": "架構師老王", "date": "2026-01-22", "description": "在大型企業專案中拆分前端應用的實踐心得。", "cover": "https://picsum.photos/seed/art6/400/300", "views": 1200 },
-    { "id": 7, "title": "Node.js 異常監控指南", "category": "後端開發", "author": "軟體工程師", "date": "2026-01-25", "description": "如何實作全域 Error Handling 並串接 Sentry。", "cover": "https://picsum.photos/seed/art7/400/300", "views": 750 },
-    { "id": 8, "title": "Vue3 Composition API 心法", "category": "前端框架", "author": "王美琪", "date": "2026-01-28", "description": "從 Options API 轉換到 Script Setup 的完整路徑。", "cover": "https://picsum.photos/seed/art8/400/300", "views": 1400 },
-    { "id": 9, "title": "API 設計美學 - RESTful", "category": "架構設計", "author": "黃俊傑", "date": "2026-01-30", "description": "如何規劃具備擴充性且易讀的 API 資源路徑。", "cover": "https://picsum.photos/seed/art9/400/300", "views": 2500 },
-    { "id": 10, "title": "軟體工程師的職涯規劃", "category": "軟實力", "author": "迷途小書僮", "date": "2026-02-01", "description": "除了寫扣，你更應該掌握的溝通與管理技巧。", "cover": "https://picsum.photos/seed/art10/400/300", "views": 5000 },
-    { "id": 11, "title": "Next.js 15 新功能速報", "category": "前端框架", "author": "NextJS 探險家", "date": "2026-02-03", "description": "體驗最新的快取機制與 Data Fetching 優化。", "cover": "https://picsum.photos/seed/art11/400/300", "views": 850 },
-    { "id": 12, "title": "測試驅動開發 TDD 實戰", "category": "品質管理", "author": "測試大師", "date": "2026-02-04", "description": "使用 Jest 與 Vitest 為你的程式碼寫第一份測試。", "cover": "https://picsum.photos/seed/art12/400/300", "views": 600 },
-    { "id": 13, "title": "Clean Code 程式碼整潔之道", "category": "軟實力", "author": "程式整潔官", "date": "2026-02-05", "description": "讓同事不再看不懂你的扣，從命名開始優化。", "cover": "https://picsum.photos/seed/art13/400/300", "views": 4200 },
-    { "id": 14, "title": "Git 衝突處理與 Rebase", "category": "開發工具", "author": "Git Lover", "date": "2026-02-06", "description": "再也不怕 Merge Conflict，優雅保持 Commit 線圖。", "cover": "https://picsum.photos/seed/art14/400/300", "views": 1100 },
-    { "id": 15, "title": "iPad 也能高效寫扣嗎？", "category": "開發工具", "author": "軟體工程師", "date": "2026-02-07", "description": "推薦 iPad 上的 Code Editor 與系統架構繪圖 App。", "cover": "https://picsum.photos/seed/art15/400/300", "views": 2900 },
-    { "id": 16, "title": "Zustand 輕量化狀態管理", "category": "前端框架", "author": "Oliver Brown", "date": "2026-02-08", "description": "比起 Redux，為什麼小型專案更適合 Zustand。", "cover": "https://picsum.photos/seed/art16/400/300", "views": 1750 },
-    { "id": 17, "title": "Web Security 基礎防禦", "category": "網路安全", "author": "資安專員", "date": "2026-02-09", "description": "預防 XSS 與 CSRF 攻擊的實戰建議。", "cover": "https://picsum.photos/seed/art17/400/300", "views": 980 },
-    { "id": 18, "title": "如何閱讀大型專案源碼", "category": "軟實力", "author": "資深工程師", "date": "2026-02-10", "description": "快速理清複雜程式碼邏輯的讀碼心法。", "cover": "https://picsum.photos/seed/art18/400/300", "views": 3300 },
-    { "id": 19, "title": "MySQL 效能調校心法", "category": "後端開發", "author": "資料庫大師", "date": "2026-02-11", "description": "正確建立 Index 索引提升查詢速度。", "cover": "https://picsum.photos/seed/art19/400/300", "views": 1550 },
-    { "id": 20, "title": "GraphQL 與 REST 的抉擇", "category": "架構設計", "author": "黃俊傑", "date": "2026-02-12", "description": "你的專案真的需要 GraphQL 嗎？優缺點深度比較。", "cover": "https://picsum.photos/seed/art20/400/300", "views": 2100 }
+    {
+      "id": 1,
+      "title": "2026 前端趨勢展望",
+      "category": "技術趨勢",
+      "author": "陳冠宇",
+      "date": "2026-01-01",
+      "description": "深度分析 React 19 與 Server Components 的未來應用。",
+      "cover": "https://picsum.photos/seed/art1/400/300",
+      "views": 1500
+    },
+    {
+      "id": 2,
+      "title": "TypeScript 高階型別實戰",
+      "category": "語言基礎",
+      "author": "廖英隆",
+      "date": "2026-01-05",
+      "description": "如何利用 Conditional Types 打造類型安全的 API SDK。",
+      "cover": "https://picsum.photos/seed/art2/400/300",
+      "views": 2200
+    },
+    {
+      "id": 3,
+      "title": "從零開始架設 Docker 環境",
+      "category": "DevOps",
+      "author": "吳修德",
+      "date": "2026-01-10",
+      "description": "軟體工程師必備的容器化基礎，含 Docker Compose 教學。",
+      "cover": "https://picsum.photos/seed/art3/400/300",
+      "views": 1800
+    },
+    {
+      "id": 4,
+      "title": "Tailwind CSS 優化指南",
+      "category": "CSS",
+      "author": "前端開發者",
+      "date": "2026-01-15",
+      "description": "如何減小編譯體積並提升 JIT 模式的開發效率。",
+      "cover": "https://picsum.photos/seed/art4/400/300",
+      "views": 900
+    },
+    {
+      "id": 5,
+      "title": "React Performance 效能優化",
+      "category": "前端框架",
+      "author": "楊子萱",
+      "date": "2026-01-20",
+      "description": "useMemo 與 useCallback 的正確使用時機。",
+      "cover": "https://picsum.photos/seed/art5/400/300",
+      "views": 3100
+    },
+    {
+      "id": 6,
+      "title": "微前端架構 Micro-frontends",
+      "category": "架構設計",
+      "author": "架構師老王",
+      "date": "2026-01-22",
+      "description": "在大型企業專案中拆分前端應用的實踐心得。",
+      "cover": "https://picsum.photos/seed/art6/400/300",
+      "views": 1200
+    },
+    {
+      "id": 7,
+      "title": "Node.js 異常監控指南",
+      "category": "後端開發",
+      "author": "軟體工程師",
+      "date": "2026-01-25",
+      "description": "如何實作全域 Error Handling 並串接 Sentry。",
+      "cover": "https://picsum.photos/seed/art7/400/300",
+      "views": 750
+    },
+    {
+      "id": 8,
+      "title": "Vue3 Composition API 心法",
+      "category": "前端框架",
+      "author": "王美琪",
+      "date": "2026-01-28",
+      "description": "從 Options API 轉換到 Script Setup 的完整路徑。",
+      "cover": "https://picsum.photos/seed/art8/400/300",
+      "views": 1400
+    },
+    {
+      "id": 9,
+      "title": "API 設計美學 - RESTful",
+      "category": "架構設計",
+      "author": "黃俊傑",
+      "date": "2026-01-30",
+      "description": "如何規劃具備擴充性且易讀的 API 資源路徑。",
+      "cover": "https://picsum.photos/seed/art9/400/300",
+      "views": 2500
+    },
+    {
+      "id": 10,
+      "title": "軟體工程師的職涯規劃",
+      "category": "軟實力",
+      "author": "迷途小書僮",
+      "date": "2026-02-01",
+      "description": "除了寫扣，你更應該掌握的溝通與管理技巧。",
+      "cover": "https://picsum.photos/seed/art10/400/300",
+      "views": 5000
+    },
+    {
+      "id": 11,
+      "title": "Next.js 15 新功能速報",
+      "category": "前端框架",
+      "author": "NextJS 探險家",
+      "date": "2026-02-03",
+      "description": "體驗最新的快取機制與 Data Fetching 優化。",
+      "cover": "https://picsum.photos/seed/art11/400/300",
+      "views": 850
+    },
+    {
+      "id": 12,
+      "title": "測試驅動開發 TDD 實戰",
+      "category": "品質管理",
+      "author": "測試大師",
+      "date": "2026-02-04",
+      "description": "使用 Jest 與 Vitest 為你的程式碼寫第一份測試。",
+      "cover": "https://picsum.photos/seed/art12/400/300",
+      "views": 600
+    },
+    {
+      "id": 13,
+      "title": "Clean Code 程式碼整潔之道",
+      "category": "軟實力",
+      "author": "程式整潔官",
+      "date": "2026-02-05",
+      "description": "讓同事不再看不懂你的扣，從命名開始優化。",
+      "cover": "https://picsum.photos/seed/art13/400/300",
+      "views": 4200
+    },
+    {
+      "id": 14,
+      "title": "Git 衝突處理與 Rebase",
+      "category": "開發工具",
+      "author": "Git Lover",
+      "date": "2026-02-06",
+      "description": "再也不怕 Merge Conflict，優雅保持 Commit 線圖。",
+      "cover": "https://picsum.photos/seed/art14/400/300",
+      "views": 1100
+    },
+    {
+      "id": 15,
+      "title": "iPad 也能高效寫扣嗎？",
+      "category": "開發工具",
+      "author": "軟體工程師",
+      "date": "2026-02-07",
+      "description": "推薦 iPad 上的 Code Editor 與系統架構繪圖 App。",
+      "cover": "https://picsum.photos/seed/art15/400/300",
+      "views": 2900
+    },
+    {
+      "id": 16,
+      "title": "Zustand 輕量化狀態管理",
+      "category": "前端框架",
+      "author": "Oliver Brown",
+      "date": "2026-02-08",
+      "description": "比起 Redux，為什麼小型專案更適合 Zustand。",
+      "cover": "https://picsum.photos/seed/art16/400/300",
+      "views": 1750
+    },
+    {
+      "id": 17,
+      "title": "Web Security 基礎防禦",
+      "category": "網路安全",
+      "author": "資安專員",
+      "date": "2026-02-09",
+      "description": "預防 XSS 與 CSRF 攻擊的實戰建議。",
+      "cover": "https://picsum.photos/seed/art17/400/300",
+      "views": 980
+    },
+    {
+      "id": 18,
+      "title": "如何閱讀大型專案源碼",
+      "category": "軟實力",
+      "author": "資深工程師",
+      "date": "2026-02-10",
+      "description": "快速理清複雜程式碼邏輯的讀碼心法。",
+      "cover": "https://picsum.photos/seed/art18/400/300",
+      "views": 3300
+    },
+    {
+      "id": 19,
+      "title": "MySQL 效能調校心法",
+      "category": "後端開發",
+      "author": "資料庫大師",
+      "date": "2026-02-11",
+      "description": "正確建立 Index 索引提升查詢速度。",
+      "cover": "https://picsum.photos/seed/art19/400/300",
+      "views": 1550
+    },
+    {
+      "id": 20,
+      "title": "GraphQL 與 REST 的抉擇",
+      "category": "架構設計",
+      "author": "黃俊傑",
+      "date": "2026-02-12",
+      "description": "你的專案真的需要 GraphQL 嗎？優缺點深度比較。",
+      "cover": "https://picsum.photos/seed/art20/400/300",
+      "views": 2100
+    }
   ],
   "qnaList": [
-    { "id": 1, "status": "待解決", "time": "5 小時前", "title": "useEffect 造成無限 re-render", "excerpt": "我在 effect 裡面呼叫 API 並更新 state，導致頁面卡死。", "author": { "name": "楊子萱", "avatar": "https://i.pravatar.cc/150?img=9" }, "tags": ["React", "bug"], "stats": { "votes": 34, "replies": 11 } },
-    { "id": 2, "status": "已解決", "time": "1 天前", "title": "CSS 垂直置中該用 Flex 還是 Grid？", "excerpt": "現在主流專業大家比較推薦哪一種寫法？", "author": { "name": "CSS Wizard", "avatar": "https://i.pravatar.cc/150?img=12" }, "tags": ["CSS", "討論"], "stats": { "votes": 45, "replies": 12 } },
-    { "id": 3, "status": "待解決", "time": "5 小時前", "title": "Hydration mismatch 錯誤", "excerpt": "使用了 dayjs，結果部署後跳出 Hydration 錯誤。", "author": { "name": "Sarah Lin", "avatar": "https://i.pravatar.cc/150?img=5" }, "tags": ["Next.js", "SSR"], "stats": { "votes": 5, "replies": 1 } },
-    { "id": 4, "status": "已解決", "time": "2025-12-01", "title": "轉職作品集建議", "excerpt": "作品集放電商網站還是互動小遊戲比較加分？", "author": { "name": "迷途小書僮", "avatar": "https://i.pravatar.cc/150?img=3" }, "tags": ["Career", "面試"], "stats": { "votes": 88, "replies": 24 } },
-    { "id": 5, "status": "待解決", "time": "2 小時前", "title": "TypeScript Generic 限制 Key", "excerpt": "keyof 取到的屬性一直報錯，該如何處理？", "author": { "name": "TS Master", "avatar": "https://i.pravatar.cc/150?img=1" }, "tags": ["TypeScript"], "stats": { "votes": 12, "replies": 3 } },
-    { "id": 6, "status": "待解決", "time": "10 小時前", "title": "Tailwind 動態 Class 名稱", "excerpt": "有沒有更好的方式處理 Runtime 的動態樣式？", "author": { "name": "阿強", "avatar": "https://i.pravatar.cc/150?img=2" }, "tags": ["Tailwind"], "stats": { "votes": 22, "replies": 8 } },
-    { "id": 7, "status": "已解決", "time": "2 天前", "title": "Zustand vs Redux Toolkit", "excerpt": "大型專案重構該如何挑選狀態管理工具？", "author": { "name": "架構師老王", "avatar": "https://i.pravatar.cc/150?img=4" }, "tags": ["State"], "stats": { "votes": 56, "replies": 19 } },
-    { "id": 8, "status": "待解決", "time": "6 小時前", "title": "Docker 部署 node_modules", "excerpt": "Dockerfile 跑起來非常慢，layer 設定有誤嗎？", "author": { "name": "DevOps 初學者", "avatar": "https://i.pravatar.cc/150?img=6" }, "tags": ["Docker"], "stats": { "votes": 15, "replies": 4 } },
-    { "id": 9, "status": "已解決", "time": "3 天前", "title": "React 渲染效能優化", "excerpt": "useMemo 真的有用嗎？測試後感覺沒變快。", "author": { "name": "效能狂人", "avatar": "https://i.pravatar.cc/150?img=7" }, "tags": ["Performance"], "stats": { "votes": 72, "replies": 15 } },
-    { "id": 10, "status": "待解決", "time": "1 小時前", "title": "Git Rebase vs Merge", "excerpt": "團隊合作中大家傾向哪一種合併方式？", "author": { "name": "Git Lover", "avatar": "https://i.pravatar.cc/150?img=8" }, "tags": ["Git"], "stats": { "votes": 41, "replies": 22 } },
-    { "id": 11, "status": "待解決", "time": "12 小時前", "title": "Next.js 資料抓取策略", "excerpt": "Server 與 Client Component 串接建議。", "author": { "name": "NextJS 探險家", "avatar": "https://i.pravatar.cc/150?img=10" }, "tags": ["Next.js"], "stats": { "votes": 28, "replies": 6 } },
-    { "id": 12, "status": "已解決", "time": "5 天前", "title": "Vite 環境變數讀不到", "excerpt": "VITE_ 前綴已加，但程式碼中仍是 undefined。", "author": { "name": "工具達人", "avatar": "https://i.pravatar.cc/150?img=11" }, "tags": ["Vite"], "stats": { "votes": 19, "replies": 5 } },
-    { "id": 13, "status": "待解決", "time": "4 小時前", "title": "API 回傳 Null 值處理", "excerpt": "避免 Cannot read property of null 的做法。", "author": { "name": "Bug Hunter", "avatar": "https://i.pravatar.cc/150?img=13" }, "tags": ["JavaScript"], "stats": { "votes": 33, "replies": 9 } },
-    { "id": 14, "status": "已解決", "time": "1 週前", "title": "自動存檔功能實作", "excerpt": "Debounce 還是 Throttle 比較好？", "author": { "name": "前端小菜鳥", "avatar": "https://i.pravatar.cc/150?img=14" }, "tags": ["UIUX"], "stats": { "votes": 65, "replies": 14 } },
-    { "id": 15, "status": "待解決", "time": "8 小時前", "title": "ESLint Promise Catch 報錯", "excerpt": "所有的 async 都要加 try-catch 嗎？", "author": { "name": "程式整潔官", "avatar": "https://i.pravatar.cc/150?img=15" }, "tags": ["Clean Code"], "stats": { "votes": 17, "replies": 2 } },
-    { "id": 16, "status": "已解決", "time": "4 天前", "title": "系統架構繪圖工具推薦", "excerpt": "想在 iPad 上畫流程圖，除 Excalidraw 外？", "author": { "name": "Designer", "avatar": "https://i.pravatar.cc/150?img=16" }, "tags": ["Tools"], "stats": { "votes": 49, "replies": 11 } },
-    { "id": 17, "status": "待解決", "time": "3 小時前", "title": "React Hook Form 複雜表單", "excerpt": "表單內有陣列欄位，控制起來很混亂。", "author": { "name": "Form Master", "avatar": "https://i.pravatar.cc/150?img=17" }, "tags": ["React"], "stats": { "votes": 25, "replies": 7 } },
-    { "id": 18, "status": "已解決", "time": "6 天前", "title": "字體優化避免 Layout Shift", "excerpt": "該用 font-display: swap 嗎？", "author": { "name": "效能狂人", "avatar": "https://i.pravatar.cc/150?img=18" }, "tags": ["Performance"], "stats": { "votes": 38, "replies": 10 } },
-    { "id": 19, "status": "待解決", "time": "7 小時前", "title": "如何參與 Open Source", "excerpt": "想提升品質，不知道從哪找 issue。", "author": { "name": "熱血青年", "avatar": "https://i.pravatar.cc/150?img=19" }, "tags": ["OpenSource"], "stats": { "votes": 92, "replies": 35 } },
-    { "id": 20, "status": "已解決", "time": "2 週前", "title": "2026 前端必備工具清單", "excerpt": "除了 VS Code 之外的開發神器？", "author": { "name": "工具控", "avatar": "https://i.pravatar.cc/150?img=20" }, "tags": ["Tools"], "stats": { "votes": 120, "replies": 50 } }
+    {
+      "id": 1,
+      "status": "待解決",
+      "time": "5 小時前",
+      "title": "useEffect 造成無限 re-render",
+      "excerpt": "我在 effect 裡面呼叫 API 並更新 state，導致頁面卡死。",
+      "author": {
+        "name": "楊子萱",
+        "avatar": "https://i.pravatar.cc/150?img=9"
+      },
+      "tags": [
+        "React",
+        "bug"
+      ],
+      "stats": {
+        "votes": 34,
+        "replies": 11
+      }
+    },
+    {
+      "id": 2,
+      "status": "已解決",
+      "time": "1 天前",
+      "title": "CSS 垂直置中該用 Flex 還是 Grid？",
+      "excerpt": "現在主流專業大家比較推薦哪一種寫法？",
+      "author": {
+        "name": "CSS Wizard",
+        "avatar": "https://i.pravatar.cc/150?img=12"
+      },
+      "tags": [
+        "CSS",
+        "討論"
+      ],
+      "stats": {
+        "votes": 45,
+        "replies": 12
+      }
+    },
+    {
+      "id": 3,
+      "status": "待解決",
+      "time": "5 小時前",
+      "title": "Hydration mismatch 錯誤",
+      "excerpt": "使用了 dayjs，結果部署後跳出 Hydration 錯誤。",
+      "author": {
+        "name": "Sarah Lin",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      },
+      "tags": [
+        "Next.js",
+        "SSR"
+      ],
+      "stats": {
+        "votes": 5,
+        "replies": 1
+      }
+    },
+    {
+      "id": 4,
+      "status": "已解決",
+      "time": "2025-12-01",
+      "title": "轉職作品集建議",
+      "excerpt": "作品集放電商網站還是互動小遊戲比較加分？",
+      "author": {
+        "name": "迷途小書僮",
+        "avatar": "https://i.pravatar.cc/150?img=3"
+      },
+      "tags": [
+        "Career",
+        "面試"
+      ],
+      "stats": {
+        "votes": 88,
+        "replies": 24
+      }
+    },
+    {
+      "id": 5,
+      "status": "待解決",
+      "time": "2 小時前",
+      "title": "TypeScript Generic 限制 Key",
+      "excerpt": "keyof 取到的屬性一直報錯，該如何處理？",
+      "author": {
+        "name": "TS Master",
+        "avatar": "https://i.pravatar.cc/150?img=1"
+      },
+      "tags": [
+        "TypeScript"
+      ],
+      "stats": {
+        "votes": 12,
+        "replies": 3
+      }
+    },
+    {
+      "id": 6,
+      "status": "待解決",
+      "time": "10 小時前",
+      "title": "Tailwind 動態 Class 名稱",
+      "excerpt": "有沒有更好的方式處理 Runtime 的動態樣式？",
+      "author": {
+        "name": "阿強",
+        "avatar": "https://i.pravatar.cc/150?img=2"
+      },
+      "tags": [
+        "Tailwind"
+      ],
+      "stats": {
+        "votes": 22,
+        "replies": 8
+      }
+    },
+    {
+      "id": 7,
+      "status": "已解決",
+      "time": "2 天前",
+      "title": "Zustand vs Redux Toolkit",
+      "excerpt": "大型專案重構該如何挑選狀態管理工具？",
+      "author": {
+        "name": "架構師老王",
+        "avatar": "https://i.pravatar.cc/150?img=4"
+      },
+      "tags": [
+        "State"
+      ],
+      "stats": {
+        "votes": 56,
+        "replies": 19
+      }
+    },
+    {
+      "id": 8,
+      "status": "待解決",
+      "time": "6 小時前",
+      "title": "Docker 部署 node_modules",
+      "excerpt": "Dockerfile 跑起來非常慢，layer 設定有誤嗎？",
+      "author": {
+        "name": "DevOps 初學者",
+        "avatar": "https://i.pravatar.cc/150?img=6"
+      },
+      "tags": [
+        "Docker"
+      ],
+      "stats": {
+        "votes": 15,
+        "replies": 4
+      }
+    },
+    {
+      "id": 9,
+      "status": "已解決",
+      "time": "3 天前",
+      "title": "React 渲染效能優化",
+      "excerpt": "useMemo 真的有用嗎？測試後感覺沒變快。",
+      "author": {
+        "name": "效能狂人",
+        "avatar": "https://i.pravatar.cc/150?img=7"
+      },
+      "tags": [
+        "Performance"
+      ],
+      "stats": {
+        "votes": 72,
+        "replies": 15
+      }
+    },
+    {
+      "id": 10,
+      "status": "待解決",
+      "time": "1 小時前",
+      "title": "Git Rebase vs Merge",
+      "excerpt": "團隊合作中大家傾向哪一種合併方式？",
+      "author": {
+        "name": "Git Lover",
+        "avatar": "https://i.pravatar.cc/150?img=8"
+      },
+      "tags": [
+        "Git"
+      ],
+      "stats": {
+        "votes": 41,
+        "replies": 22
+      }
+    },
+    {
+      "id": 11,
+      "status": "待解決",
+      "time": "12 小時前",
+      "title": "Next.js 資料抓取策略",
+      "excerpt": "Server 與 Client Component 串接建議。",
+      "author": {
+        "name": "NextJS 探險家",
+        "avatar": "https://i.pravatar.cc/150?img=10"
+      },
+      "tags": [
+        "Next.js"
+      ],
+      "stats": {
+        "votes": 28,
+        "replies": 6
+      }
+    },
+    {
+      "id": 12,
+      "status": "已解決",
+      "time": "5 天前",
+      "title": "Vite 環境變數讀不到",
+      "excerpt": "VITE_ 前綴已加，但程式碼中仍是 undefined。",
+      "author": {
+        "name": "工具達人",
+        "avatar": "https://i.pravatar.cc/150?img=11"
+      },
+      "tags": [
+        "Vite"
+      ],
+      "stats": {
+        "votes": 19,
+        "replies": 5
+      }
+    },
+    {
+      "id": 13,
+      "status": "待解決",
+      "time": "4 小時前",
+      "title": "API 回傳 Null 值處理",
+      "excerpt": "避免 Cannot read property of null 的做法。",
+      "author": {
+        "name": "Bug Hunter",
+        "avatar": "https://i.pravatar.cc/150?img=13"
+      },
+      "tags": [
+        "JavaScript"
+      ],
+      "stats": {
+        "votes": 33,
+        "replies": 9
+      }
+    },
+    {
+      "id": 14,
+      "status": "已解決",
+      "time": "1 週前",
+      "title": "自動存檔功能實作",
+      "excerpt": "Debounce 還是 Throttle 比較好？",
+      "author": {
+        "name": "前端小菜鳥",
+        "avatar": "https://i.pravatar.cc/150?img=14"
+      },
+      "tags": [
+        "UIUX"
+      ],
+      "stats": {
+        "votes": 65,
+        "replies": 14
+      }
+    },
+    {
+      "id": 15,
+      "status": "待解決",
+      "time": "8 小時前",
+      "title": "ESLint Promise Catch 報錯",
+      "excerpt": "所有的 async 都要加 try-catch 嗎？",
+      "author": {
+        "name": "程式整潔官",
+        "avatar": "https://i.pravatar.cc/150?img=15"
+      },
+      "tags": [
+        "Clean Code"
+      ],
+      "stats": {
+        "votes": 17,
+        "replies": 2
+      }
+    },
+    {
+      "id": 16,
+      "status": "已解決",
+      "time": "4 天前",
+      "title": "系統架構繪圖工具推薦",
+      "excerpt": "想在 iPad 上畫流程圖，除 Excalidraw 外？",
+      "author": {
+        "name": "Designer",
+        "avatar": "https://i.pravatar.cc/150?img=16"
+      },
+      "tags": [
+        "Tools"
+      ],
+      "stats": {
+        "votes": 49,
+        "replies": 11
+      }
+    },
+    {
+      "id": 17,
+      "status": "待解決",
+      "time": "3 小時前",
+      "title": "React Hook Form 複雜表單",
+      "excerpt": "表單內有陣列欄位，控制起來很混亂。",
+      "author": {
+        "name": "Form Master",
+        "avatar": "https://i.pravatar.cc/150?img=17"
+      },
+      "tags": [
+        "React"
+      ],
+      "stats": {
+        "votes": 25,
+        "replies": 7
+      }
+    },
+    {
+      "id": 18,
+      "status": "已解決",
+      "time": "6 天前",
+      "title": "字體優化避免 Layout Shift",
+      "excerpt": "該用 font-display: swap 嗎？",
+      "author": {
+        "name": "效能狂人",
+        "avatar": "https://i.pravatar.cc/150?img=18"
+      },
+      "tags": [
+        "Performance"
+      ],
+      "stats": {
+        "votes": 38,
+        "replies": 10
+      }
+    },
+    {
+      "id": 19,
+      "status": "待解決",
+      "time": "7 小時前",
+      "title": "如何參與 Open Source",
+      "excerpt": "想提升品質，不知道從哪找 issue。",
+      "author": {
+        "name": "熱血青年",
+        "avatar": "https://i.pravatar.cc/150?img=19"
+      },
+      "tags": [
+        "OpenSource"
+      ],
+      "stats": {
+        "votes": 92,
+        "replies": 35
+      }
+    },
+    {
+      "id": 20,
+      "status": "已解決",
+      "time": "2 週前",
+      "title": "2026 前端必備工具清單",
+      "excerpt": "除了 VS Code 之外的開發神器？",
+      "author": {
+        "name": "工具控",
+        "avatar": "https://i.pravatar.cc/150?img=20"
+      },
+      "tags": [
+        "Tools"
+      ],
+      "stats": {
+        "votes": 120,
+        "replies": 50
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "guanyu@example.com",
+      "password": "afdd0b4ad2ec172c586e2150770fbf9e",
+      "name": "陳冠宇",
+      "createdAt": "2026-01-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "email": "sarah@example.com",
+      "password": "1a9da8f9b3e28bf152f8de3765a3cc87",
+      "name": "Sarah Smith",
+      "createdAt": "2026-01-05T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "email": "zixuan@example.com",
+      "password": "0da217e590d017670c30e315724759a4",
+      "name": "楊子萱",
+      "createdAt": "2026-01-10T14:15:00Z"
+    },
+    {
+      "id": 4,
+      "email": "codebloom@gmail.com",
+      "password": "d6702727802c661240a05fa225f86208",
+      "name": "管理者",
+      "createdAt": "2026-02-27T23:27:00Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "陳冠宇",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "bio": "全端工程師，熱愛 React 與 Node.js 開發。",
+      "email": "guanyu@example.com",
+      "phone": "0912-345-678",
+      "telPrivacy": "private",
+      "location": "台北市",
+      "gender": "male",
+      "jobTitle": "全端工程師",
+      "birthday": "1995-03-15",
+      "jobStatus": "open",
+      "skills": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "socialLinks": {
+        "github": "https://github.com/guanyu",
+        "linkedin": "https://linkedin.com/in/guanyu"
+      },
+      "website": "https://guanyu.dev",
+      "updatedAt": "2026-02-01T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Sarah Smith",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "bio": "Frontend developer specialized in React & TypeScript.",
+      "email": "sarah@example.com",
+      "phone": "0923-456-789",
+      "telPrivacy": "private",
+      "location": "新竹市",
+      "gender": "female",
+      "jobTitle": "前端工程師",
+      "birthday": "1998-07-22",
+      "jobStatus": "project",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Next.js"
+      ],
+      "socialLinks": {
+        "github": "https://github.com/sarahsmith",
+        "linkedin": "https://linkedin.com/in/sarahsmith"
+      },
+      "website": "https://sarahsmith.dev",
+      "updatedAt": "2026-02-10T09:30:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "name": "楊子萱",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "bio": "Vue3 愛好者，喜歡設計簡潔的 UI。",
+      "email": "zixuan@example.com",
+      "phone": "0934-567-890",
+      "telPrivacy": "private",
+      "location": "台中市",
+      "gender": "female",
+      "jobTitle": "UI 設計師",
+      "birthday": "1997-11-08",
+      "jobStatus": "open",
+      "skills": [
+        "Vue3",
+        "SCSS",
+        "Figma",
+        "Pinia"
+      ],
+      "socialLinks": {
+        "github": "https://github.com/zixuan",
+        "linkedin": "https://linkedin.com/in/zixuan"
+      },
+      "website": "https://zixuan.dev",
+      "updatedAt": "2026-02-15T16:45:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "name": "管理者",
+      "avatar": "https://i.pravatar.cc/150?img=25",
+      "bio": "CodeBloom 平台管理者，負責平台營運與內容管理。",
+      "email": "codebloom@gmail.com",
+      "phone": "0900-000-000",
+      "telPrivacy": "private",
+      "location": "台北市",
+      "gender": "male",
+      "jobTitle": "平台管理者",
+      "birthday": "1990-01-01",
+      "jobStatus": "none",
+      "skills": [
+        "React",
+        "Node.js",
+        "Docker",
+        "MySQL"
+      ],
+      "socialLinks": {
+        "github": "https://github.com/codebloom",
+        "linkedin": "https://linkedin.com/in/codebloom"
+      },
+      "website": "https://codebloom.dev",
+      "updatedAt": "2026-02-27T23:27:00Z"
+    }
   ]
 }
