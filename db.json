@@ -405,200 +405,320 @@
       "title": "2026 前端趨勢展望",
       "category": "技術趨勢",
       "author": "陳冠宇",
+      "authorAvatar": "https://i.pravatar.cc/150?img=33",
       "date": "2026-01-01",
       "description": "深度分析 React 19 與 Server Components 的未來應用。",
       "cover": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=300&fit=crop",
-      "views": 1500
+      "views": 1500,
+      "likes": 120,
+      "tags": [
+        "React",
+        "2026"
+      ]
     },
     {
       "id": 2,
       "title": "TypeScript 高階型別實戰",
       "category": "語言基礎",
       "author": "廖英隆",
+      "authorAvatar": "https://i.pravatar.cc/150?img=22",
       "date": "2026-01-05",
       "description": "如何利用 Conditional Types 打造類型安全的 API SDK。",
       "cover": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop",
-      "views": 2200
+      "views": 2200,
+      "likes": 156,
+      "tags": [
+        "TypeScript",
+        "SDK"
+      ]
     },
     {
       "id": 3,
       "title": "從零開始架設 Docker 環境",
       "category": "DevOps",
       "author": "吳修德",
+      "authorAvatar": "https://i.pravatar.cc/150?img=14",
       "date": "2026-01-10",
       "description": "軟體工程師必備的容器化基礎，含 Docker Compose 教學。",
       "cover": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=400&h=300&fit=crop",
-      "views": 1800
+      "views": 1800,
+      "likes": 98,
+      "tags": [
+        "Docker",
+        "DevOps"
+      ]
     },
     {
       "id": 4,
       "title": "Tailwind CSS 優化指南",
       "category": "CSS",
       "author": "前端開發者",
+      "authorAvatar": "https://i.pravatar.cc/150?img=18",
       "date": "2026-01-15",
       "description": "如何減小編譯體積並提升 JIT 模式的開發效率。",
       "cover": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?w=400&h=300&fit=crop",
-      "views": 900
+      "views": 900,
+      "likes": 45,
+      "tags": [
+        "Tailwind",
+        "CSS"
+      ]
     },
     {
       "id": 5,
       "title": "React Performance 效能優化",
       "category": "前端框架",
       "author": "楊子萱",
+      "authorAvatar": "https://i.pravatar.cc/150?img=9",
       "date": "2026-01-20",
       "description": "useMemo 與 useCallback 的正確使用時機。",
       "cover": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=400&h=300&fit=crop",
-      "views": 3100
+      "views": 3100,
+      "likes": 234,
+      "tags": [
+        "React",
+        "Performance"
+      ]
     },
     {
       "id": 6,
       "title": "微前端架構 Micro-frontends",
       "category": "架構設計",
       "author": "架構師老王",
+      "authorAvatar": "https://i.pravatar.cc/150?img=4",
       "date": "2026-01-22",
       "description": "在大型企業專案中拆分前端應用的實踐心得。",
       "cover": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
-      "views": 1200
+      "views": 1200,
+      "likes": 87,
+      "tags": [
+        "Micro-frontends",
+        "Architecture"
+      ]
     },
     {
       "id": 7,
       "title": "Node.js 異常監控指南",
       "category": "後端開發",
       "author": "軟體工程師",
+      "authorAvatar": "https://i.pravatar.cc/150?img=15",
       "date": "2026-01-25",
       "description": "如何實作全域 Error Handling 並串接 Sentry。",
       "cover": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=300&fit=crop",
-      "views": 750
+      "views": 750,
+      "likes": 52,
+      "tags": [
+        "Node.js",
+        "Error Handling"
+      ]
     },
     {
       "id": 8,
       "title": "Vue3 Composition API 心法",
       "category": "前端框架",
       "author": "王美琪",
+      "authorAvatar": "https://i.pravatar.cc/150?img=26",
       "date": "2026-01-28",
       "description": "從 Options API 轉換到 Script Setup 的完整路徑。",
       "cover": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop",
-      "views": 1400
+      "views": 1400,
+      "likes": 112,
+      "tags": [
+        "Vue3",
+        "Composition API"
+      ]
     },
     {
       "id": 9,
       "title": "API 設計美學 - RESTful",
       "category": "架構設計",
       "author": "黃俊傑",
+      "authorAvatar": "https://i.pravatar.cc/150?img=30",
       "date": "2026-01-30",
       "description": "如何規劃具備擴充性且易讀的 API 資源路徑。",
       "cover": "https://images.unsplash.com/photo-1623282033815-40b05d96c903?w=400&h=300&fit=crop",
-      "views": 2500
+      "views": 2500,
+      "likes": 189,
+      "tags": [
+        "API",
+        "RESTful"
+      ]
     },
     {
       "id": 10,
       "title": "軟體工程師的職涯規劃",
       "category": "軟實力",
       "author": "迷途小書僮",
+      "authorAvatar": "https://i.pravatar.cc/150?img=3",
       "date": "2026-02-01",
       "description": "除了寫扣，你更應該掌握的溝通與管理技巧。",
       "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
-      "views": 5000
+      "views": 5000,
+      "likes": 345,
+      "tags": [
+        "Career",
+        "Soft Skills"
+      ]
     },
     {
       "id": 11,
       "title": "Next.js 15 新功能速報",
       "category": "前端框架",
       "author": "NextJS 探險家",
+      "authorAvatar": "https://i.pravatar.cc/150?img=10",
       "date": "2026-02-03",
       "description": "體驗最新的快取機制與 Data Fetching 優化。",
       "cover": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=400&h=300&fit=crop",
-      "views": 850
+      "views": 850,
+      "likes": 67,
+      "tags": [
+        "Next.js",
+        "Performance"
+      ]
     },
     {
       "id": 12,
       "title": "測試驅動開發 TDD 實戰",
       "category": "品質管理",
       "author": "測試大師",
+      "authorAvatar": "https://i.pravatar.cc/150?img=11",
       "date": "2026-02-04",
       "description": "使用 Jest 與 Vitest 為你的程式碼寫第一份測試。",
       "cover": "https://images.unsplash.com/photo-1576444356170-66073fbf1ece?w=400&h=300&fit=crop",
-      "views": 600
+      "views": 600,
+      "likes": 34,
+      "tags": [
+        "TDD",
+        "Testing"
+      ]
     },
     {
       "id": 13,
       "title": "Clean Code 程式碼整潔之道",
       "category": "軟實力",
       "author": "程式整潔官",
+      "authorAvatar": "https://i.pravatar.cc/150?img=12",
       "date": "2026-02-05",
       "description": "讓同事不再看不懂你的扣，從命名開始優化。",
       "cover": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=300&fit=crop",
-      "views": 4200
+      "views": 4200,
+      "likes": 256,
+      "tags": [
+        "Clean Code",
+        "Best Practices"
+      ]
     },
     {
       "id": 14,
       "title": "Git 衝突處理與 Rebase",
       "category": "開發工具",
       "author": "Git Lover",
+      "authorAvatar": "https://i.pravatar.cc/150?img=8",
       "date": "2026-02-06",
       "description": "再也不怕 Merge Conflict，優雅保持 Commit 線圖。",
       "cover": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
-      "views": 1100
+      "views": 1100,
+      "likes": 78,
+      "tags": [
+        "Git",
+        "Workflow"
+      ]
     },
     {
       "id": 15,
       "title": "iPad 也能高效寫扣嗎？",
       "category": "開發工具",
       "author": "軟體工程師",
+      "authorAvatar": "https://i.pravatar.cc/150?img=15",
       "date": "2026-02-07",
       "description": "推薦 iPad 上的 Code Editor 與系統架構繪圖 App。",
       "cover": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop",
-      "views": 2900
+      "views": 2900,
+      "likes": 145,
+      "tags": [
+        "iPad",
+        "Productivity"
+      ]
     },
     {
       "id": 16,
       "title": "Zustand 輕量化狀態管理",
       "category": "前端框架",
       "author": "Oliver Brown",
+      "authorAvatar": "https://i.pravatar.cc/150?img=12",
       "date": "2026-02-08",
       "description": "比起 Redux，為什麼小型專案更適合 Zustand。",
       "cover": "https://images.unsplash.com/photo-1591267990532-e5bdb1b0ceb8?w=400&h=300&fit=crop",
-      "views": 1750
+      "views": 1750,
+      "likes": 89,
+      "tags": [
+        "Zustand",
+        "State Management"
+      ]
     },
     {
       "id": 17,
       "title": "Web Security 基礎防禦",
       "category": "網路安全",
       "author": "資安專員",
+      "authorAvatar": "https://i.pravatar.cc/150?img=16",
       "date": "2026-02-09",
       "description": "預防 XSS 與 CSRF 攻擊的實戰建議。",
       "cover": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop",
-      "views": 980
+      "views": 980,
+      "likes": 45,
+      "tags": [
+        "Web Security",
+        "XSS"
+      ]
     },
     {
       "id": 18,
       "title": "如何閱讀大型專案源碼",
       "category": "軟實力",
       "author": "資深工程師",
+      "authorAvatar": "https://i.pravatar.cc/150?img=17",
       "date": "2026-02-10",
       "description": "快速理清複雜程式碼邏輯的讀碼心法。",
       "cover": "https://images.unsplash.com/photo-1515879218367-8466d910auj0?w=400&h=300&fit=crop",
-      "views": 3300
+      "views": 3300,
+      "likes": 210,
+      "tags": [
+        "Career",
+        "Mindset"
+      ]
     },
     {
       "id": 19,
       "title": "MySQL 效能調校心法",
       "category": "後端開發",
       "author": "資料庫大師",
+      "authorAvatar": "https://i.pravatar.cc/150?img=19",
       "date": "2026-02-11",
       "description": "正確建立 Index 索引提升查詢速度。",
       "cover": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=300&fit=crop",
-      "views": 1550
+      "views": 1550,
+      "likes": 123,
+      "tags": [
+        "MySQL",
+        "Database"
+      ]
     },
     {
       "id": 20,
       "title": "GraphQL 與 REST 的抉擇",
       "category": "架構設計",
       "author": "黃俊傑",
+      "authorAvatar": "https://i.pravatar.cc/150?img=30",
       "date": "2026-02-12",
       "description": "你的專案真的需要 GraphQL 嗎？優缺點深度比較。",
       "cover": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop",
-      "views": 2100
+      "views": 2100,
+      "likes": 167,
+      "tags": [
+        "GraphQL",
+        "REST"
+      ]
     }
   ],
   "qnaList": [
